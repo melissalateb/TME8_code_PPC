@@ -34,6 +34,11 @@ def receive = {
       println("start")
       play(exemple)
       print("duration : "  + duration(exemple))
+      val copyExemple = copy(exemple) // copy
+      println(note_count(exemple))
+      assert(note_count(exemple) == note_count(copyExemple)) // count_note
+      val stretchedExemple = stretch(copyExemple, 2) // stretch: 2 times slower
+      play_midi(stretchedExemple, duration(exemple) + 1000) // stretch: play stretched after the exemple (1 second between them)
     }
         
 }
@@ -81,7 +86,7 @@ val exemple = Parallel(List(
     case Parallel (l) => l.foreach(n=>play_midi(n,at))
   }
   
-/*
+
  // Copy un objet musical
   def copy (obj:ObjectMusical):ObjectMusical =
   obj match {
@@ -131,13 +136,15 @@ obj match {
 }
 
 // retrograde un obj  
-  def retrograde (obj:ObjectMusical):ObjectMusical =
+  def retrograde (obj:ObjectMusical):ObjectMusical = {
 obj match {
   case Sequential (l) => Sequential (l.reverse.map(retrograde))
   case o => o
 }
 
-//Question 5
+  }
+  /*
+  //Question 5
 
 
 // make a sequential avec n fois obj  
@@ -152,8 +159,8 @@ obj match {
 //  Met obj1 et obj2 en seqeunce 
   def concat (obj1:ObjectMusical, obj2:ObjectMusical):ObjectMusical =
   //code here
-*/
 
+*/
 //Question 5 BACH
  val voix1 = Sequential ( List (
   Note (60 , 750 , 106 ) , Note (62 , 250 , 108 ) , Note (63 , 250 , 108 ) , 
