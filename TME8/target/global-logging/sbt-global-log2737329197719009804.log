@@ -1,0 +1,8 @@
+[debug] > Exec(corun, Some(a56265c5-9052-4a88-ad45-92f19a7804d7), Some(CommandSource(console0)))
+[error] Not a valid command: corun
+[error] Not a valid project ID: corun
+[error] Expected ':'
+[error] Not a valid key: corun (similar: run, runner, runMain)
+[error] corun
+[error]      ^
+[debug] > Exec(shell, None, None)

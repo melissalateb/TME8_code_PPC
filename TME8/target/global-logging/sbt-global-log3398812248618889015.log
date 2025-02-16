@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(120420d7-8b3f-4480-aa60-60139646337e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0morg.jboss.netty.channel.ChannelException: Failed to bind to: /127.0.0.1:5001[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.bootstrap.ServerBootstrap.bind(ServerBootstrap.java:272)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.remote.transport.netty.NettyTransport.$anonfun$listen$1(NettyTransport.scala:464)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.$anonfun$map$1(Try.scala:255)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Success.map(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:91)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:40)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)[0m
+[0m[[0m[31merror[0m] [0m[0m	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.net.BindException: Address already in use[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.bind0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.bind(Net.java:459)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.Net.bind(Net.java:448)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.channel.socket.nio.NioServerBoss$RegisterTask.run(NioServerBoss.java:193)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.processTaskQueue(AbstractNioSelector.java:391)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:315)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.channel.socket.nio.NioServerBoss.run(NioServerBoss.java:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)[0m
+[0m[[0m[31merror[0m] [0m[0m	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) org.jboss.netty.channel.ChannelException: Failed to bind to: /127.0.0.1:5001[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Feb 10, 2025, 2:59:56 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
