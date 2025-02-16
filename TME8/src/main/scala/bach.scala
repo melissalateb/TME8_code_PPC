@@ -135,32 +135,28 @@ obj match {
   case Sequential (l) => Sequential (l.map(mirror (_,c)))
 }
 
-// retrograde un obj  
+  // retrograde un obj
   def retrograde (obj:ObjectMusical):ObjectMusical = {
-obj match {
-  case Sequential (l) => Sequential (l.reverse.map(retrograde))
-  case o => o
-}
+    obj match {
+      case Sequential (l) => Sequential (l.reverse.map(retrograde))
+      case o => o
 
+    }
   }
-  /*
+
   //Question 5
-
-
 // make a sequential avec n fois obj  
   def repeat (obj:ObjectMusical, n:Int):ObjectMusical =
-  //code here
+      Sequential(List.fill(n)(obj))
 
 // make obj en parallele avec lui meme avec un decalage de n ms.
   def canon (obj:ObjectMusical, n:Int):ObjectMusical =
-  //code here
-
+    Parallel(List(obj, Sequential(List(Rest(n), obj))))
 
 //  Met obj1 et obj2 en seqeunce 
   def concat (obj1:ObjectMusical, obj2:ObjectMusical):ObjectMusical =
-  //code here
-
-*/
+    Sequential(List(obj1, obj2))
+  val exemple2 = canon(repeat(exemple, 3), 1000)
 //Question 5 BACH
  val voix1 = Sequential ( List (
   Note (60 , 750 , 106 ) , Note (62 , 250 , 108 ) , Note (63 , 250 , 108 ) , 
