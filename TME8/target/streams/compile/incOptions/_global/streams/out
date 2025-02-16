@@ -1,2 +1,59 @@
 [debug] Created transactional ClassFileManager with tempDir = C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes.bak
+[debug] About to delete class files:
+[debug] 	SimpleObjectMusical.class
+[debug] 	Note.class
+[debug] 	bach$.class
+[debug] 	bach.class
+[debug] 	BachActor.class
+[debug] 	ObjectMusical.class
+[debug] 	Sequential.class
+[debug] 	ComposeObjectMusical.class
+[debug] 	Rest.class
+[debug] 	MidiNote.class
+[debug] 	bach$delayedInit$body.class
+[debug] 	Parallel.class
+[debug] 	Sequential$.class
+[debug] 	Note$.class
+[debug] 	MidiNote$.class
+[debug] 	Rest$.class
+[debug] 	BachActor$$anonfun$receive$1.class
+[debug] 	Parallel$.class
+[debug] We backup class files:
+[debug] 	SimpleObjectMusical.class
+[debug] 	Note.class
+[debug] 	bach$.class
+[debug] 	bach.class
+[debug] 	BachActor.class
+[debug] 	ObjectMusical.class
+[debug] 	Sequential.class
+[debug] 	ComposeObjectMusical.class
+[debug] 	Rest.class
+[debug] 	MidiNote.class
+[debug] 	bach$delayedInit$body.class
+[debug] 	Parallel.class
+[debug] 	Sequential$.class
+[debug] 	Note$.class
+[debug] 	MidiNote$.class
+[debug] 	Rest$.class
+[debug] 	BachActor$$anonfun$receive$1.class
+[debug] 	Parallel$.class
+[debug] Registering generated classes:
+[debug] 	SimpleObjectMusical.class
+[debug] 	Note.class
+[debug] 	bach$.class
+[debug] 	bach.class
+[debug] 	BachActor.class
+[debug] 	ObjectMusical.class
+[debug] 	Sequential.class
+[debug] 	ComposeObjectMusical.class
+[debug] 	Rest.class
+[debug] 	MidiNote.class
+[debug] 	bach$delayedInit$body.class
+[debug] 	Parallel.class
+[debug] 	Sequential$.class
+[debug] 	Note$.class
+[debug] 	MidiNote$.class
+[debug] 	Rest$.class
+[debug] 	BachActor$$anonfun$receive$1.class
+[debug] 	Parallel$.class
 [debug] Removing the temporary directory used for backing up class files: C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes.bak

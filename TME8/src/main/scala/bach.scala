@@ -45,18 +45,24 @@ def receive = {
       // Q4
       val repeat_test = repeat(exemple, 3) // repeat
       println("duration: " + duration(repeat_test))
-      play(repeat_test)
+      //play(repeat_test)
 
       val canon_test = canon(exemple, 200)
       println("duration: " + duration(canon_test))
-      play(canon_test)
+      //play(canon_test)
 
       val concat_test = concat(canon_test, repeat_test)
       println("duration: " + duration(concat_test))
-      play(concat_test)
+      //play(concat_test)
       // ex2
       println("duration: " + duration(exemple2))
-      play(exemple2)
+      //play(exemple2)
+
+
+      // Q5: bach
+      val bash = canon_Bach()
+      println("duration: " + duration(bash))
+      play(bash)
     }
 }
 
@@ -212,20 +218,43 @@ val voix2 = Sequential (List (
   Note (50 , 125 , 100 ),Note (49 , 125 , 100 ),Note (50 , 125 , 100 ), 
   Note (52 , 125 , 100 ),Note (53 , 125 , 100 ),Note (55 , 125 , 100 ),
   Note (58 , 125 , 100 ),Note (57 , 125 , 100 ),Note (55 , 125 , 100 )))
+  val voix3 = transpose(voix2, 7)
 
-/*
-def canon_Bach ():ObjectMusical = {
-    // ????
+  def canon_Bach(): ObjectMusical = {
+    return Parallel(List(
+      Sequential(List(
+        transpose(voix1, 2),
+        transpose(voix1, 4),
+        transpose(voix1, 6),
+        transpose(voix1, 8),
+        transpose(voix1, 10),
+        transpose(voix1, 12)
+      )),
+      Sequential(List(
+        transpose(voix2, 2),
+        transpose(voix2, 4),
+        transpose(voix2, 6),
+        transpose(voix2, 8),
+        transpose(voix2, 10),
+        transpose(voix2, 12)
+      )),
+      Sequential(List(
+        Rest(2000),
+        Sequential(List(
+          transpose(voix3, 2),
+          transpose(voix3, 4),
+          transpose(voix3, 6),
+          transpose(voix3, 8),
+          transpose(voix3, 10),
+          transpose(voix3, 12)
+        ))
+      ))
+    ))
   }
-*/
 }
-//////////////////////////////////////////////////
-
-
 /**************** MAin object *******************/
 object bach extends App {
   val system = ActorSystem("Bach")
   val localActor = system.actorOf(Props[BachActor], name = "Bach")
   localActor ! "START"
 }
-

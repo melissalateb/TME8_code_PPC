@@ -1,0 +1,7 @@
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:242:5: ';' expected but ')' found.
+[error]     ))
+[error]     ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:243:1: Missing closing brace `}' assumed here
+[error] }
+[error] ^
+[error] two errors found

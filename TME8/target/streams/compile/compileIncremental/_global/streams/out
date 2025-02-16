@@ -2,5 +2,33 @@
 [debug] IncrementalCompile.incrementalCompile
 [debug] previous = Stamps for: 18 products, 1 sources, 2 libraries
 [debug] current source = Set(${BASE}/src/main/scala/bach.scala)
-[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
-[debug] No changes
+[debug] > initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/bach.scala), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(${BASE}/src/main/scala/bach.scala)
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(upmc.akka.culto.MidiNote, upmc.akka.culto.Sequential, upmc.akka.culto.Parallel, upmc.akka.culto.SimpleObjectMusical, upmc.akka.culto.bach, upmc.akka.culto.ComposeObjectMusical, upmc.akka.culto.Rest, upmc.akka.culto.Note, upmc.akka.culto.ObjectMusical, upmc.akka.culto.BachActor)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 1 sources are invalidated
+[debug] Initial set of included nodes: upmc.akka.culto.MidiNote, upmc.akka.culto.Sequential, upmc.akka.culto.Parallel, upmc.akka.culto.SimpleObjectMusical, upmc.akka.culto.bach, upmc.akka.culto.ComposeObjectMusical, upmc.akka.culto.Rest, upmc.akka.culto.Note, upmc.akka.culto.ObjectMusical, upmc.akka.culto.BachActor
+[debug] Including upmc.akka.culto.Rest by upmc.akka.culto.SimpleObjectMusical
+[debug] Including upmc.akka.culto.Note by upmc.akka.culto.SimpleObjectMusical
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.10.7:compile for Scala 2.12.12
+[debug] [zinc] Running cached compiler 3b09106a for Scala compiler version 2.12.12
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.12\scala-library-2.12.12.jar
+[debug] 	-classpath
+[debug] 	C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.12\2.5.18\akka-actor_2.12-2.5.18.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-remote_2.12\2.5.18\akka-remote_2.12-2.5.18.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.3.3\config-1.3.3.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.12\0.8.0\scala-java8-compat_2.12-0.8.0.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.12\2.5.18\akka-stream_2.12-2.5.18.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf_2.12\2.5.18\akka-protobuf_2.12-2.5.18.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\netty\netty\3.10.6.Final\netty-3.10.6.Final.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\aeron\aeron-driver\1.11.2\aeron-driver-1.11.2.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\aeron\aeron-client\1.11.2\aeron-client-1.11.2.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.12\0.3.6\ssl-config-core_2.12-0.3.6.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\agrona\agrona\0.9.25\agrona-0.9.25.jar;C:\Users\lateb\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.1\scala-parser-combinators_2.12-1.1.1.jar
+[debug] Scala compilation took 5.588296 s
+[info] done compiling

@@ -1,0 +1,7 @@
+[debug] > Exec(compile, Some(4215b993-9ca8-468d-9cd6-92d14c90570d), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[info] done compiling
+[success] Total time: 8 s, completed 16 févr. 2025 à 11:26:56
+[debug] > Exec(shell, None, None)

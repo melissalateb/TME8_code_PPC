@@ -1,0 +1,14 @@
+[debug] > Exec(run, Some(c29646e8-3ec6-4779-b491-2833a8961b6a), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:242:5: ';' expected but ')' found.
+[error]     ))
+[error]     ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:243:1: Missing closing brace `}' assumed here
+[error] }
+[error] ^
+[error] two errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 16 févr. 2025 à 12:03:18
+[debug] > Exec(shell, None, None)

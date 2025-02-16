@@ -1,1 +1,49 @@
-[debug] Jar uptodate: C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\bach_2.12-1.0.jar
+[debug] Packaging C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\bach_2.12-1.0.jar ...
+[debug] Input file mappings:
+[debug] 	.DS_Store
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\.DS_Store
+[debug] 	application.conf
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\application.conf
+[debug] 	upmc
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc
+[debug] 	upmc\akka
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka
+[debug] 	upmc\akka\culto
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto
+[debug] 	upmc\akka\culto\bach$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\bach$.class
+[debug] 	upmc\akka\culto\bach$delayedInit$body.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\bach$delayedInit$body.class
+[debug] 	upmc\akka\culto\bach.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\bach.class
+[debug] 	upmc\akka\culto\BachActor$$anonfun$receive$1.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\BachActor$$anonfun$receive$1.class
+[debug] 	upmc\akka\culto\BachActor.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\BachActor.class
+[debug] 	upmc\akka\culto\ComposeObjectMusical.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\ComposeObjectMusical.class
+[debug] 	upmc\akka\culto\MidiNote$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\MidiNote$.class
+[debug] 	upmc\akka\culto\MidiNote.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\MidiNote.class
+[debug] 	upmc\akka\culto\Note$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Note$.class
+[debug] 	upmc\akka\culto\Note.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Note.class
+[debug] 	upmc\akka\culto\ObjectMusical.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\ObjectMusical.class
+[debug] 	upmc\akka\culto\Parallel$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Parallel$.class
+[debug] 	upmc\akka\culto\Parallel.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Parallel.class
+[debug] 	upmc\akka\culto\Rest$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Rest$.class
+[debug] 	upmc\akka\culto\Rest.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Rest.class
+[debug] 	upmc\akka\culto\Sequential$.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Sequential$.class
+[debug] 	upmc\akka\culto\Sequential.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\Sequential.class
+[debug] 	upmc\akka\culto\SimpleObjectMusical.class
+[debug] 	  C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes\upmc\akka\culto\SimpleObjectMusical.class
+[debug] Done packaging.

@@ -1,0 +1,11 @@
+[debug] > Exec(compile, Some(261921ba-9f5a-4119-a9fb-b8c9bf5469ea), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:140:1: Missing closing brace `}' assumed here
+[error] obj match {
+[error] ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 3 s, completed 16 févr. 2025 à 11:25:19
+[debug] > Exec(shell, None, None)

@@ -1,0 +1,11 @@
+[debug] > Exec(run, Some(0c98ec1d-e919-4c91-ab6a-099bf08daab2), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:153:3: illegal start of simple expression
+[error]   def canon (obj:ObjectMusical, n:Int):ObjectMusical =
+[error]   ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 0 s, completed 16 févr. 2025 à 11:23:39
+[debug] > Exec(shell, None, None)

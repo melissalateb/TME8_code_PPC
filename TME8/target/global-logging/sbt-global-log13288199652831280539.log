@@ -1,0 +1,26 @@
+[debug] > Exec(compile, Some(3f4029b2-d0fd-4046-8a14-f5b511a741ae), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:46:20: recursive value repeat needs type
+[error]       val repeat = repeat(exemple, 3) // repeat
+[error]                    ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:48:12: not found: value exempleReapeted
+[error]       play(exempleReapeted)
+[error]            ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:50:19: recursive value canon needs type
+[error]       val canon = canon(exemple, 200)
+[error]                   ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:52:12: not found: value exempleCanon
+[error]       play(exempleCanon)
+[error]            ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:54:20: recursive value concat needs type
+[error]       val concat = concat(canon, repeat)
+[error]                    ^
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:56:12: not found: value exempleConcat
+[error]       play(exempleConcat)
+[error]            ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 5 s, completed 16 févr. 2025 à 11:39:12
+[debug] > Exec(shell, None, None)

@@ -1,0 +1,11 @@
+[debug] > Exec(compile, Some(abc1da2d-5688-46a2-a38c-74850000ec1f), Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\target\scala-2.12\classes ...
+[error] C:\Users\lateb\Desktop\M2STLSORBONNE\PPC\TME8_code\TME8\src\main\scala\bach.scala:55:39: not found: value concconcat_testat
+[error]       println("duration: " + duration(concconcat_testat))
+[error]                                       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 4 s, completed 16 févr. 2025 à 11:41:34
+[debug] > Exec(shell, None, None)
