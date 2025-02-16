@@ -39,8 +39,25 @@ def receive = {
       assert(note_count(exemple) == note_count(copyExemple)) // count_note
       val stretchedExemple = stretch(copyExemple, 2) // stretch: 2 times slower
       play_midi(stretchedExemple, duration(exemple) + 1000) // stretch: play stretched after the exemple (1 second between them)
+
+
+      // test des fonctions repeat - canon - concat
+      // Q4
+      val repeat_test = repeat(exemple, 3) // repeat
+      println("duration: " + duration(repeat_test))
+      play(repeat_test)
+
+      val canon_test = canon(exemple, 200)
+      println("duration: " + duration(canon_test))
+      play(canon_test)
+
+      val concat_test = concat(canon_test, repeat_test)
+      println("duration: " + duration(concat_test))
+      play(concat_test)
+      // ex2
+      println("duration: " + duration(exemple2))
+      play(exemple2)
     }
-        
 }
 
 /////////////////////////////////////////////////
