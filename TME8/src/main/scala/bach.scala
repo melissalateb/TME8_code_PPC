@@ -32,8 +32,8 @@ class BachActor extends Actor {
 def receive = {
     case "START" => {
       println("start")
-      play(voix1)
-      play(voix2)
+      play(exemple)
+      print("duration : "  + duration(exemple))
     }
         
 }
@@ -41,9 +41,13 @@ def receive = {
 /////////////////////////////////////////////////
 
 //Question 1
-// val exemple = ???
-
-val exemple = Nil
+val exemple = Parallel(List(
+  Sequential(List(
+    Note(60, 1000, 100), Note(64, 500, 100), Note(62, 500, 100), Rest(1000), Note(67, 1000, 100)
+  )),
+  Sequential(List(
+    Note(53, 2000, 100), Note(55, 1000, 100), Note(55, 1000, 100)
+  ))))
 
 
 //Question 2
